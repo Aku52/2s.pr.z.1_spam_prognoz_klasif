@@ -1,4 +1,9 @@
+"Создание класса Birds с атрибутами (имя, способность летать, размер),"
+" методами (пение, еда, сон, дальность полёта) и деструктором."
+" Создание объекта воробей и вызов метода flying_range()"
+
 class Birds:
+
     def __init__(self,name,flying_ability,size):
         self.name = name
         self.flying_ability = flying_ability
